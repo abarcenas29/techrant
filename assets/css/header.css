@@ -1,0 +1,76 @@
+header#main-header .site-title h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0.1em 0;
+  color: #252525;
+}
+header#main-header .site-title h1 span {
+  color: white;
+}
+nav#main-nav {
+  background-color: #252525;
+}
+nav#main-nav .desktop-nav ul {
+  margin: 0em;
+}
+nav#main-nav .desktop-nav ul li {
+  padding: 0.3em 0em;
+  list-style-type: none;
+  float: left;
+  padding-right: 1em;
+  padding-left: 0.5em;
+}
+nav#main-nav .desktop-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding: inherit;
+}
+nav#main-nav .desktop-nav ul .search {
+  float: right;
+}
+nav#main-nav .desktop-nav ul .search input {
+  background-color: #696969;
+  border: none;
+  padding: 0.3em 0em;
+}
+nav#main-nav .desktop-nav ul:last-child {
+  float: right;
+}
+nav#main-nav .desktop-nav ul:last-child input[type="search"] {
+  border: none;
+  background-color: #696969;
+  overflow: hidden;
+}
+nav#main-nav .mobile-nav {
+  display: none;
+}
+nav#main-nav .mobile-nav ul {
+  margin: 0em;
+}
+nav#main-nav .mobile-nav ul li {
+  padding: 0.3em 0em;
+  list-style-type: none;
+  float: left;
+  padding-right: 1em;
+}
+nav#main-nav .mobile-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding: inherit;
+}
+@media screen and (max-width: 560px) {
+  .mobile-nav {
+    display: block !important;
+  }
+  .desktop-nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 505px) {
+  header#main-header .site-title h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+}

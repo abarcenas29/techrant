@@ -1,0 +1,207 @@
+article#main-content {
+  margin-top: 1em;
+  background-color: #fff;
+}
+article#main-content .category {
+  padding: 0.5em 1em;
+}
+article#main-content .category h2 {
+  margin: 0.1em 0em;
+  font-size: 2.5em;
+  border-bottom: 0.2em solid #696969;
+}
+article#main-content .category h2 .base {
+  color: #252525;
+}
+article#main-content .category h2 .end {
+  color: #696969;
+}
+article#main-content .category h2 a {
+  color: #b5b5b5;
+  text-decoration: none;
+}
+article#main-content .post-loop {
+  padding: 0.5em 1em;
+}
+article#main-content .post-loop article .post-article {
+  vertical-align: top;
+  padding-right: 1em;
+}
+article#main-content .post-loop article .post-article article {
+  border-bottom: 0.5em solid #cfcfcf;
+  padding-bottom: 1em;
+}
+article#main-content .post-loop article .post-article article header h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 0.2em 0em;
+  color: #252525;
+}
+article#main-content .post-loop article .post-article article header p {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 0.5em 0em;
+  font-size: 0.8em;
+}
+article#main-content .post-loop article .post-article article section {
+  font-family: 'Conv_weblysleekuil';
+  font-size: 1.2em;
+}
+article#main-content .post-loop article .post-article article section .aligncenter {
+  margin: 0em auto;
+}
+article#main-content .post-loop article .post-article article section img {
+  display: block;
+  padding: 1em;
+}
+article#main-content .post-loop article .post-article article footer .social-add {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 4em;
+}
+article#main-content .post-loop article .post-article article footer .social-add ul {
+  padding: 0em;
+}
+article#main-content .post-loop article .post-article article footer .social-add ul li {
+  font-family: 'social';
+  font-size: 2.5em;
+  list-style-type: none;
+  float: left;
+  margin-left: 1em;
+}
+article#main-content .post-loop article .post-article article footer .social-add ul .rss {
+  color: #FF981D;
+}
+article#main-content .post-loop article .post-article article footer .social-add ul .gplus {
+  color: #B81B1B;
+}
+article#main-content .post-loop article .post-article article footer .social-add ul .twitter {
+  color: #56C5FF;
+}
+article#main-content .post-loop .aside {
+  width: 30%;
+  padding: 0.5em 1em;
+  border-left: 1px solid #e9e9e9;
+}
+article#main-content .post-loop .aside .top-comment {
+  padding-bottom: 0.7em;
+  border-bottom: 0.5em solid #cfcfcf;
+}
+article#main-content .post-loop .aside .top-comment article header h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 0.2em 0em;
+  color: #252525;
+}
+article#main-content .post-loop .aside .top-comment article .image {
+  overflow: hidden;
+  position: relative;
+  height: 8em;
+}
+article#main-content .post-loop .aside .top-comment article .image img {
+  position: absolute;
+  top: -1em;
+  width: 100%;
+}
+article#main-content .post-loop .aside .top-comment article section p {
+  margin: 0.1em 0em;
+}
+article#main-content .post-loop .aside .top-comment article section p a {
+  font-family: 'Conv_weblysleekuisb';
+  color: #E56C19;
+  text-decoration: none;
+}
+article#main-content .post-loop .aside .top-comment article section h4 {
+  margin: 0.1em 0em;
+  padding-bottom: 0.5em;
+  border-bottom: 0.1em solid #e9e9e9;
+}
+article#main-content .post-loop .aside .top-comment article section h4 a {
+  font-size: 1.5em;
+  color: #252525;
+  text-decoration: none;
+}
+article#main-content .post-loop section.ask-img {
+  padding-right: 1em;
+  border-bottom: 0.1em solid #cfcfcf;
+}
+article#main-content .post-loop section.ask-img section {
+  background-color: #00C13F;
+}
+article#main-content .post-loop section.ask-img p {
+  color: white;
+  font-size: 2em;
+  padding: 1em 0em;
+  text-align: right;
+}
+article#main-content .post-loop section.ask-img p span {
+  font-family: 'social';
+  padding-right: 0.2em;
+}
+article#main-content .post-loop .social-bar {
+  border-bottom: 0.1em solid #cfcfcf;
+  padding-bottom: 4em;
+}
+article#main-content .post-loop .social-bar article header h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 0.2em 0em;
+  color: #252525;
+}
+article#main-content .post-loop .social-bar article ul li {
+  float: left;
+  list-style-type: none;
+  margin-right: 1em;
+}
+article#main-content .post-loop .social-bar article ul li a {
+  font-family: 'social';
+  text-decoration: none;
+  font-size: 2.5em;
+}
+article#main-content .post-loop .social-bar article ul li .rss {
+  color: #FF981D;
+}
+article#main-content .post-loop .social-bar article ul li .gplus {
+  color: #B81B1B;
+}
+article#main-content .post-loop .social-bar article ul li .twitter {
+  color: #56C5FF;
+}
+article#main-content .post-loop .related-content article header h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 0.2em 0em;
+  color: #252525;
+}
+article#main-content .post-loop .related-content article .related-loop .img {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 8em;
+}
+article#main-content .post-loop .related-content article .related-loop .img img {
+  position: absolute;
+  width: 100%;
+}
+article#main-content .post-loop .related-content article .related-loop .title h4 {
+  text-transform: capitalize;
+  margin: 0.1em 0em;
+  font-size: 1.5em;
+}
+article#main-content .post-loop .related-content article .related-loop .title h4 a {
+  color: #252525;
+  text-decoration: none;
+}
+@media screen and (max-width: 1021px) {
+  article#main-content .post-loop aside .social-bar {
+    padding-bottom: 9em;
+  }
+  article#main-content .post-loop aside .social-bar article ul li {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 758px) {
+  article#main-content .post-loop aside {
+    display: none;
+  }
+}

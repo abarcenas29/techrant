@@ -1,0 +1,372 @@
+@import "vars.less";
+
+article#show-banner
+{
+	background-color:@bright-blue;
+	margin:0.2em auto;
+	.desktop-description
+	{
+	vertical-align:middle;
+	article
+	{
+	padding:0em 1em;
+	header
+	{
+		h2
+		{
+			font-weight:700;
+			font-size:2.5em;
+			span
+			{
+			color:white;
+			}
+			margin:0.5em 0em 0.1em 0;
+			color:#252525;
+		}
+		p
+		{
+			margin:0.1em;
+			color:white;
+			font-style:italic;
+		}
+	}
+	}
+	section
+	{
+		
+	}
+	footer
+	{
+	padding:2em;
+	display:none;
+	img
+	{
+		width:100%;
+		border:1em solid #56C5FF;
+	}
+	}
+	}
+	.desktop-image
+	{
+		padding:2em;
+		img
+		{
+			
+			width:26em;
+			border:1em solid #56C5FF;
+		}
+	}
+}
+
+article#main-content
+{
+	margin-top:1em;
+	background-color:white;
+	.side-bar
+	{
+		border-right:1px solid lighten(#696969,40%);
+		width:30%;
+		padding:@common-padding;
+		article.ask-img
+		{
+			section
+			{
+			background-color:#00C13F;
+			}
+			p
+			{
+			color:white;
+			font-size:2em;
+			padding:1em 0em;
+			text-align:right;
+			span
+			{
+			font-family: 'social';
+			padding-right:0.2em;
+			}
+			}
+			padding-right:1em;
+		}
+		
+		.twitter
+		{
+		height:35em;
+			section
+			{
+			text-align:center;
+			vertical-align:middle;
+			}
+		}
+
+		article.episode-list
+		{
+		header 
+		{
+			h3
+			{
+			font-size:1.5em;
+			margin:0.1em 0em;
+			}
+		border-bottom:2px solid #252525;
+		}
+		section
+		{
+		ul
+		{
+		padding:0.2em 0.2em 0.5em 0.5em;
+			li
+			{
+			list-style-type:none;
+			margin-top:0.5em;
+			a
+			{
+			text-decoration:none;
+			font-size:1.3em;
+			font-family: 'Conv_weblysleekuisb';
+			}
+			}
+		}
+		}
+
+		}
+		
+	}
+	.loop
+	{
+		width:70%;
+		padding:@common-padding;
+		vertical-align:top;
+		article.social-bar
+		{
+		border-bottom:1px solid lighten(#696969,40%);
+		padding-bottom:1.0em;
+		header
+		{
+			h3
+			{
+			font-size:2.0em;
+			margin:0.2em;
+			}
+		text-align:right;
+		}
+		section
+		{
+		div:first-child
+		{
+			width:50%;
+			float:left;
+			ul
+			{
+				li
+				{
+					list-style-type:none;
+					display:block;
+					float:left;
+					margin-right:2.5em;
+				}
+			}
+		}
+		div:last-child
+		{
+			width:50%;
+			float:right;
+			ul
+			{
+				li
+				{
+				float:right;
+				list-style-type:none;
+				margin-right:1em;
+				a
+				{
+				font-family: 'social';
+				text-decoration:none;
+				font-size:3em;
+				}
+				.rss
+				{
+				color:#FF981D;
+				}
+				.gplus
+				{
+				color:#B81B1B;
+				}
+				.twitter
+				{
+				color:#56C5FF;
+				}
+				}
+			}
+		}
+		}
+		}
+		
+		.sidebar-mobile
+		{
+		display:none;
+		.ask-img section
+		{
+		background-color:#00C13F;
+		}
+		p
+		{
+		color:white;
+		font-size:2em;
+		padding:1em 0em;
+		text-align:right;
+		span
+		{
+		font-family: 'social';
+		padding-right:0.2em;
+		}
+		}
+
+		.episode-list
+		{
+		header
+		{
+		background-color:#2673EC;
+			h3
+			{
+			text-align:center;
+			color:white;
+			margin:0;
+			padding:0.1em 0em;
+			font-size:2.0em;
+			}
+		}
+		section
+		{
+		ul
+		{
+		li
+		{
+			list-style-type:none;
+			padding-bottom:1.5em;
+			a
+			{
+			text-decoration:none;
+			font-family: 'Conv_weblysleekuisb';
+			font-size:2em;
+			}
+		}
+		}
+		}
+		}
+		}
+		
+		.post-loop-title
+		{
+		display:none;
+		header
+		{
+			width:100%;
+			background-color:#FF981D;
+			h3
+			{
+				margin:0;
+				padding:0.1em 0em;
+				color:white;
+				text-align:center;
+				font-size:2em;
+			}
+		}
+		}
+
+		.post-loop
+		{
+		border-bottom:1px solid lighten(#696969,40%);
+		padding:1.0em;
+		header
+		{
+		p
+		{
+		a
+		{
+		color:#B01E00;
+		font-style:italic;
+		text-decoration:none;
+		font-family: 'Conv_weblysleekuisb';
+		}		
+		margin:0.1em 0em;
+		}
+		h4
+		{
+		a
+		{
+		font-size:2.0em;
+		text-decoration:none;
+		color:#252525;
+		}
+		margin:0.2em 0em;
+		}
+		}
+		section
+		{
+		.image-loop
+		{
+		img
+		{
+		float:left;
+		width:8em;
+		}
+		}
+		.text-loop
+		{
+		padding-left:1em;
+		vertical-align:middle;
+		}
+		}
+		footer
+		{
+			p
+			{
+			margin:0em;
+			font-style:italic;
+			text-align:right;
+			}
+		}
+		}
+	}
+}
+
+@common-padding:1em;
+
+@media screen and (max-width:830px)
+{
+	article#main-content
+	{
+		.side-bar
+		{
+		display:none;
+		}
+		.post-loop-title
+		{
+		display:block !important;
+		}
+		.loop .sidebar-mobile
+		{
+		display:block;
+		}
+	}
+
+	article#show-banner
+	{
+		.desktop-image
+		{
+		display:none;
+		}
+		footer
+		{
+		display:block !important;
+		}
+	}
+}
+
+@media screen and (max-width:576px)
+{
+	article#main-content .loop .post-loop img
+	{
+		display:none;
+	}
+}

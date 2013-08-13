@@ -1,0 +1,85 @@
+@import "vars.less";
+
+html
+{
+	width:100%;
+	body
+	{
+		height:inherit;
+		width:inherit;
+		margin:0;
+		background-color:@body-bg;
+	}
+}
+
+.wrapper
+{
+	width:100%;
+}
+
+.display-table
+{
+	display:table;
+}
+
+.display-content
+{
+	.display-table;
+	.wrapper;
+}
+
+.table-row
+{
+	display:table-row;
+}
+
+.table-child
+{
+	display:table-cell;
+}
+
+.padding
+{
+	padding:0.2em;
+}
+
+h1,h2,h3,h4,h5
+{
+	font-family:'Conv_weblysleekuisl';
+	font-weight:300;
+}
+
+.title
+{
+	font-family: 'OsakaSansSerifRegular';
+}
+
+p,a,li
+{
+	font-family:'Conv_weblysleekuil';
+	font-weight:300; 
+}
+
+a
+{
+	color:#094AB2;
+}
+
+.main-wrapper
+{
+	width:@site-width;
+	margin:0em auto;
+}
+
+.table-padding
+{
+	padding:0.3em;
+}
+
+@media screen and (max-width:1023px)
+{
+	.main-wrapper
+	{
+	width:100%;
+	}
+}
