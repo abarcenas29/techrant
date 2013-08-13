@@ -13,8 +13,10 @@
 <!-- Header Navigation -->
 <header class="main-wrapper display-table" id="main-header">
 	<section class="table-row site-title">
-		<h1 class="zxx">
+		<h1>
+			<a class="zxx" href="<?php print get_bloginfo('url'); ?>">
 			<span>#</span>TECH RANT
+			</a>
 		</h1>
 	</section>
 </header>

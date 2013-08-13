@@ -19,7 +19,7 @@ add_action('init','reg_menu');
  * wp_query lists
  * ****************************/
 
-$query = new WP_Query('cat=-22');
+
 
 /******************************
  * Thumbnail Initiation

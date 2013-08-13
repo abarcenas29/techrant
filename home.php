@@ -8,7 +8,7 @@
 	<section class="table-child  desktop-description side-padding">
 	<article>
 	<header>
-		<h2 class="zxx"><span>#</span>Tech Rant</h2>
+		<h2 class="zxx"><span>#</span>TECH RANT</h2>
 		<p>With Jay Agonoy and Mr A</p>
 	</header>
 	<section>
@@ -56,7 +56,7 @@
 	<section>
 	<ul>
 	<?php
-	$qEpisode = new WP_Query('cat=22');
+	$qEpisode = new WP_Query('cat=5');
 	$qEpisode->post_count = 10;
 	if($qEpisode->have_posts()):
 	while($qEpisode->have_posts()):$qEpisode->the_post();
@@ -162,7 +162,7 @@
 <section>
 	<ul>
 	<?php
-	$qEpisode = new WP_Query('cat=22');
+	$qEpisode = new WP_Query('cat=5');
 	$qEpisode->post_count = 10;
 	if($qEpisode->have_posts()):
 	while($qEpisode->have_posts()):$qEpisode->the_post();

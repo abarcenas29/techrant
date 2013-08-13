@@ -73,7 +73,7 @@
 <section>
 	<ul>
 	<?php
-	$qEpisode = new WP_Query('cat=22');
+	$qEpisode = new WP_Query('cat=5');
 	$qEpisode->post_count = 10;
 	if($qEpisode->have_posts()):
 	while($qEpisode->have_posts()):$qEpisode->the_post();
@@ -171,7 +171,7 @@
 	<section>
 	<ul>
 	<?php
-	$qEpisode = new WP_Query('cat=22');
+	$qEpisode = new WP_Query('cat=5');
 	$qEpisode->post_count = 10;
 	if($qEpisode->have_posts()):
 	while($qEpisode->have_posts()):$qEpisode->the_post();
