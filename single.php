@@ -161,7 +161,7 @@
 <script>
 $(document).ready(function()
 {
-	var $loopImg = $('.image-loop img');
+	var $loopImg = $('.img img');
 	$loopImg.removeAttr('width');
 	$loopImg.removeAttr('height');
 });
