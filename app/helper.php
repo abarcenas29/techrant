@@ -35,7 +35,7 @@ function add_script_code()
 		wp_deregister_script('jquery');	
 		wp_enqueue_script(
 		'jquery',
-		base_url('assets/js/jquery.core.js'),
+		get_bloginfo('stylesheet_directory').'assets/js/jquery.core.js',
 		false,
 		'1.10.2',
 		TRUE );
