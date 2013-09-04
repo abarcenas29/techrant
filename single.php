@@ -36,7 +36,7 @@
 	</p>
 	</header>
 	<section>
-	<?php print the_content(); ?>
+	<?php the_content(); ?>
 	</section>
 	<footer>
 	<section class="social-add">
