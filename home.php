@@ -242,6 +242,11 @@ endif;
 </section>
 </article>
 <script>
-
+$(document).ready(function()
+{
+	var $loopImg = $('.image-loop img');
+	$loopImg.removeAttr('width');
+	$loopImg.removeAttr('height');
+});
 </script>
 <?php get_footer(); ?>
