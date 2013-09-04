@@ -105,7 +105,7 @@
 <div class="table-child">
 <ul>
 	<li><div class="fb-like" 
-			 data-href="http://techrant.beyondobjective.com" 
+			 data-href="http://facebook.com/techrantphl" 
 			 data-width="50" 
 			 data-layout="button_count" 
 			 data-action="like" 

@@ -130,7 +130,14 @@
 	?>
 	<section class="related-loop">
 	<div class="img">
-	<img src="http://media.deremoe.com.s3.amazonaws.com/2013/06/vlcsnap-2013-06-29-18h50m11s46-620x348.jpg" />
+	<!-- Will use thumbnail function on this -->
+	<?php 
+		if(has_post_thumbnail()): 
+			print get_the_post_thumbnail();
+		else:
+			print img('no-image.png');
+		endif;
+	?>
 	</div>
 	<div class="title">
 	<h4>
@@ -151,6 +158,13 @@
 
 </article>
 </section>
-	
+<script>
+$(document).ready(function()
+{
+	var $loopImg = $('.image-loop img');
+	$loopImg.removeAttr('width');
+	$loopImg.removeAttr('height');
+});
+</script>
 </article>
 <?php get_footer(); ?>
