@@ -8,8 +8,8 @@
 	<section class="table-child  desktop-description side-padding">
 	<article>
 	<header>
-		<h2 class="zxx"><span>#</span>TECH RANT</h2>
-		<p>With Jay Agonoy and Mr A</p>
+		<h2 class="zxx"><span>#</span>TECH<span>RANT</span></h2>
+		<p>With Jay Agonoy and Mr. A</p>
 	</header>
 	<section>
 	<p><strong>Tech Rant</strong> is a 90-minute show on Technology, 
