@@ -29,4 +29,16 @@ function nav($theme)
 	);
 	wp_nav_menu($args);
 }
+
+function add_script_code() 
+{
+		wp_deregister_script('jquery');	
+		wp_enqueue_script(
+		'jquery',
+		base_url('assets/js/jquery.core.js'),
+		false,
+		'1.10.2',
+		TRUE );
+}
+add_action('wp_enqueue_scripts', 'add_script_code');
 ?>

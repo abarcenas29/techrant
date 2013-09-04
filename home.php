@@ -217,7 +217,7 @@ $cat_list	= get_the_category();
 <!-- Will use thumbnail function on this -->
 <?php 
 	if(has_post_thumbnail()): 
-		print get_the_post_thumbnail('thumbnail');
+		print get_the_post_thumbnail();
 	else:
 		print img('no-image.png');
 	endif;
@@ -241,4 +241,7 @@ endif;
 
 </section>
 </article>
+<script>
+
+</script>
 <?php get_footer(); ?>
