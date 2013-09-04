@@ -134,10 +134,16 @@
 </div>
 <div class="table-child">
 <ul>
-	<li><a href="http://facebook.com/techrantphl" class="facebook">!</a></li>
-	<li><a href="http://twitter.com/techrantphl" class="twitter">"</a></li>
+	<li><a href="http://facebook.com/techrantphl" 
+		   class="facebook"
+		   target="_new">!</a></li>
+	<li><a href="http://twitter.com/techrantphl" 
+		   class="twitter"
+		   target="_new">"</a></li>
 	<li><a href="_new" class="gplus">#</a></li>
-	<li><a href="<?php print bloginfo('rss2_url'); ?>" class="rss">$</a></li>
+	<li><a href="<?php print bloginfo('rss2_url'); ?>" 
+		   class="rss"
+		   target="_new">$</a></li>
 </ul>
 </div>
 </section>
@@ -211,7 +217,7 @@ $cat_list	= get_the_category();
 <!-- Will use thumbnail function on this -->
 <?php 
 	if(has_post_thumbnail()): 
-		print get_the_post_thumbnail();
+		print get_the_post_thumbnail('thumbnail');
 	else:
 		print img('no-image.png');
 	endif;
