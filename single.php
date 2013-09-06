@@ -12,10 +12,10 @@
 <section class="category">
 	<h2>
 	<a class="oswald base" href="/category/<?php print $cat[0]->slug;?>">
-	<?php print $cat[0]->name; ?>
+	<?php print $cat[count($cat)-1]->name; ?>
 	</a>/ 
 	<a class="oswald end" href="/category/<?php print $cat[count($cat)-1]->slug;?>">
-	<?php print $cat[count($cat)-1]->name; ?>
+	<?php print $cat[0]->name; ?>
 	</a>
 	</h2>
 </section>
@@ -108,10 +108,16 @@
 	<header><h3 class="oswald">Social Bar</h3></header>
 	<section>
 	<ul>
-	<li><a href="_new" class="facebook">!</a></li>
-	<li><a href="_new" class="twitter">"</a></li>
+	<li><a href="http://facebook.com/techrantphl" 
+		   class="facebook"
+		   target="_new">!</a></li>
+	<li><a href="http://twitter.com/techrantphl" 
+		   class="twitter"
+		   target="_new">"</a></li>
 	<li><a href="_new" class="gplus">#</a></li>
-	<li><a href="_new" class="rss">$</a></li>
+	<li><a href="<?php print bloginfo('rss2_url'); ?>" 
+		   class="rss"
+		   target="_new">$</a></li>
 	</ul>
 	</section>
 	</article>
@@ -133,7 +139,7 @@
 	<!-- Will use thumbnail function on this -->
 	<?php 
 		if(has_post_thumbnail()): 
-			print get_the_post_thumbnail();
+			print get_the_post_thumbnail(get_the_ID(),'thumbnail');
 		else:
 			print img('no-image.png');
 		endif;

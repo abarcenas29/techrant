@@ -45,7 +45,13 @@
 	<h3 class="bree">Current Episode</h3>
 	</header>
 	<section>
-	<p>Current Episode player</p>
+	<?php 
+		$qCEp = new WP_Query('cat=5');
+		$qCEp->post_count = 0;
+		if($qCEp->have_posts()):while($qCEp->have_posts()):$qCEp->the_post();
+			the_post_format_audio();
+		endwhile;endif;
+	?>
 	</section>
 	</article>
 	
@@ -217,7 +223,7 @@ $cat_list	= get_the_category();
 <!-- Will use thumbnail function on this -->
 <?php 
 	if(has_post_thumbnail()): 
-		print get_the_post_thumbnail();
+		print get_the_post_thumbnail(get_the_ID(),'thumbnail');
 	else:
 		print img('no-image.png');
 	endif;
