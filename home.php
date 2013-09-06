@@ -51,10 +51,13 @@
 		if($qCEp->have_posts()):while($qCEp->have_posts()):$qCEp->the_post();
 		$cFields = get_post_custom(get_the_ID());
 		?>
+	<br>
 	<div id="player"> Loadin! </div>
 	<script>
 	jwplayer('player').setup({
-		'file' : "<?php print $cFields['wp_audio_url'][0];  ?>"
+		'file'  : "<?php print $cFields['wp_audio_url'][0];  ?>",
+		'width' : '275',
+		'image' : 'http://techrant.beyondobjective.com/wp-content/uploads/2013/09/cover-300x300.jpg'
 	});
 	</script>
 	<?php endwhile;endif; ?>
