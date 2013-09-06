@@ -60,7 +60,7 @@
 		'image' : 'http://techrant.beyondobjective.com/wp-content/uploads/2013/09/cover-300x300.jpg'
 	});
 	</script>
-	<?php endwhile;endif; ?>
+	<?php endwhile;wp_reset_postdata(); endif; ?>
 	</section>
 	</article>
 	
