@@ -54,7 +54,7 @@
 	<div id="player"> Loadin! </div>
 	<script>
 	jwplayer('player').setup({
-		'file' : "<?php print $cFields['wp_audio_url'];  ?>"
+		'file' : "<?php print $cFields['wp_audio_url'][0];  ?>"
 	});
 	</script>
 	<?php endwhile;endif; ?>
