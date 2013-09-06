@@ -39,15 +39,6 @@
 	<?php the_content(); ?>
 	</section>
 	<footer>
-	<section class="social-add">
-	<!-- Just Temporary -->
-	<ul>
-	<li>!</li>
-	<li class="twitter">"</li>
-	<li class="gplus">#</li>
-	<li class="rss">$</li>
-	</ul>
-	</section>
 	<section>
 		<?php comments_template(); ?>
 	</section>

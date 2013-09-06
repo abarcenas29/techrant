@@ -81,6 +81,7 @@
 		</a></li>
 	<?php 
 	endwhile;
+	wp_reset_postdata();
 	endif;
 	?>
 	</ul>
@@ -193,6 +194,7 @@
 		</a></li>
 	<?php 
 	endwhile;
+	wp_reset_postdata();
 	endif;
 	?>
 	</ul>
