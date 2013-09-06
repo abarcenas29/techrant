@@ -39,6 +39,11 @@ function add_script_code()
 		false,
 		'1.10.2',
 		TRUE );
+		wp_enqueue_script(
+		'jw_player',
+		'http://jwpsrv.com/library/HGJ94haoEeO67CIACusDuQ.js',
+		'1.0.0',
+		true);
 }
 add_action('wp_enqueue_scripts', 'add_script_code');
 ?>
