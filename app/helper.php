@@ -36,9 +36,8 @@ function add_script_code()
 		wp_enqueue_script(
 		'jquery',
 		get_bloginfo('stylesheet_directory').'/assets/js/jquery.core.js',
-		false,
 		'1.10.2',
-		TRUE );
+		true);
 		wp_enqueue_script(
 		'jw_player',
 		'http://jwpsrv.com/library/HGJ94haoEeO67CIACusDuQ.js',

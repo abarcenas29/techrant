@@ -15,7 +15,9 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="http://techrant.beyondobjective.com/wp-content/themes/techrant/assets/img/icon72.png"/>
 	<link rel="apple-touch-icon" sizes="144x144" href="http://techrant.beyondobjective.com/wp-content/themes/techrant/assets/img/icon144.png"/> 
 
-	<?php wp_head(); ?> 
+	<!-- Plugin-start -->
+	<?php wp_head(); ?>
+	<!-- Plugin-end -->
 </head>
 <body class="wrapper">
 <!-- Header Navigation -->

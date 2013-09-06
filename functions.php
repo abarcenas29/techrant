@@ -1,7 +1,7 @@
 <?php
 $function_paths = $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/techrant/';
-
 include ($function_paths.'app/helper.php');
+include ($function_paths.'app/const.php');
 
 /******************************
  * Navitation Menu Initiation

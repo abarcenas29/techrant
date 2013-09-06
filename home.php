@@ -46,7 +46,7 @@
 	</header>
 	<section>
 	<?php 
-		$qCEp = new WP_Query('cat=5');
+		$qCEp = new WP_Query('cat='.BO_EPISODE);
 		$qCEp->post_count = 1;
 		if($qCEp->have_posts()):while($qCEp->have_posts()):$qCEp->the_post();
 		$cFields = get_post_custom(get_the_ID());
@@ -71,7 +71,7 @@
 	<section>
 	<ul>
 	<?php
-	$qEpisode = new WP_Query('cat=5');
+	$qEpisode = new WP_Query('cat='.BO_EPISODE);
 	$qEpisode->post_count = 10;
 	if($qEpisode->have_posts()):
 	while($qEpisode->have_posts()):$qEpisode->the_post();
@@ -184,7 +184,7 @@
 <section>
 	<ul>
 	<?php
-	$qEpisode = new WP_Query('cat=5');
+	$qEpisode = new WP_Query('cat='.BO_EPISODE);
 	$qEpisode->post_count = 10;
 	if($qEpisode->have_posts()):
 	while($qEpisode->have_posts()):$qEpisode->the_post();
