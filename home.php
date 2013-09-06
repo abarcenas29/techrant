@@ -49,9 +49,15 @@
 		$qCEp = new WP_Query('cat=5');
 		$qCEp->post_count = 1;
 		if($qCEp->have_posts()):while($qCEp->have_posts()):$qCEp->the_post();
-			print_r(get_post_custom(get_the_ID()));
-		endwhile;endif;
-	?>
+		$cFields = get_post_custom(get_the_ID());
+		?>
+	<div id="player"> Loadin! </div>
+	<script>
+	jwplayer('player').setup({
+		'file' : "<?php print $cFields['wp_audio_url'];  ?>"
+	});
+	</script>
+	<?php endwhile;endif; ?>
 	</section>
 	</article>
 	
