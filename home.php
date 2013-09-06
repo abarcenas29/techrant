@@ -47,7 +47,7 @@
 	<section>
 	<?php 
 		$qCEp = new WP_Query('cat=5');
-		$qCEp->post_count = 0;
+		$qCEp->post_count = 1;
 		if($qCEp->have_posts()):while($qCEp->have_posts()):$qCEp->the_post();
 			print_r(get_post_custom(get_the_ID()));
 		endwhile;endif;
