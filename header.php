@@ -25,7 +25,7 @@
 	<section class="table-row site-title">
 		<h1>
 			<a class="zxx" href="<?php print get_bloginfo('url'); ?>">
-			<span>#</span>TECH<span>RANT</span>
+			#<span>TECH</span>RANT
 			</a>
 		</h1>
 	</section>

@@ -1,2 +1,89 @@
-header#main-header .site-title h1{margin:.1em 0}header#main-header .site-title h1 a{font-size:4.5em;font-weight:700;color:#252525;text-decoration:none}header#main-header .site-title h1 a span{color:#fff}nav#main-nav{background-color:#252525}nav#main-nav .desktop-nav ul{margin:0}nav#main-nav .desktop-nav ul li{padding:.3em 0;list-style-type:none;float:left;padding-right:1em;padding-left:.5em;transition:background-color .5s;-webkit-transition:background-color .5s}nav#main-nav .desktop-nav ul li a{color:#fff;text-decoration:none;font-family:'Oswald',sans-serif;padding:inherit}nav#main-nav .desktop-nav ul li:hover{background-color:#FF7D23}nav#main-nav .desktop-nav ul .search{float:right}nav#main-nav .desktop-nav ul .search input{background-color:#696969;border:0;padding:.3em 0}nav#main-nav .desktop-nav ul:last-child{float:right}nav#main-nav .desktop-nav ul:last-child input[type="search"]{border:0;background-color:#696969;overflow:hidden}nav#main-nav .mobile-nav{display:none}nav#main-nav .mobile-nav ul{margin:0}nav#main-nav .mobile-nav ul li{padding:.3em 0;list-style-type:none;float:left;padding-right:1em}nav#main-nav .mobile-nav ul li a{color:#fff;text-decoration:none;font-family:'Oswald',sans-serif;padding:inherit}@media screen and (max-width: 560px){.mobile-nav{ display:block!important}.desktop-nav{display:none}}@media screen and (max-width: 505px){header#main-header .site-title h1{ font-size:2em;text-align:center}}
+header#main-header .site-title h1 {
+  margin: 0.1em 0;
+  letter-spacing: -10px;
+}
+header#main-header .site-title h1 a {
+  font-size: 4.5em;
+  font-weight: 700;
+  color: #252525;
+  text-decoration: none;
+}
+header#main-header .site-title h1 a span {
+  color: white;
+}
+nav#main-nav {
+  background-color: #252525;
+}
+nav#main-nav .desktop-nav ul {
+  margin: 0em;
+}
+nav#main-nav .desktop-nav ul li {
+  padding: 0.3em 0em;
+  list-style-type: none;
+  float: left;
+  padding-right: 1em;
+  padding-left: 0.5em;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  /* Safari */
+
+}
+nav#main-nav .desktop-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding: inherit;
+}
+nav#main-nav .desktop-nav ul li:hover {
+  background-color: #FF7D23;
+}
+nav#main-nav .desktop-nav ul .search {
+  float: right;
+}
+nav#main-nav .desktop-nav ul .search input {
+  background-color: #696969;
+  border: none;
+  padding: 0.3em 0em;
+}
+nav#main-nav .desktop-nav ul:last-child {
+  float: right;
+}
+nav#main-nav .desktop-nav ul:last-child input[type="search"] {
+  border: none;
+  background-color: #696969;
+  overflow: hidden;
+}
+nav#main-nav .mobile-nav {
+  display: none;
+}
+nav#main-nav .mobile-nav ul {
+  margin: 0em;
+}
+nav#main-nav .mobile-nav ul li {
+  padding: 0.3em 0em;
+  list-style-type: none;
+  float: left;
+  padding-right: 1em;
+}
+nav#main-nav .mobile-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding: inherit;
+}
+@media screen and (max-width: 560px) {
+  .mobile-nav {
+    display: block !important;
+  }
+  .desktop-nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 505px) {
+  header#main-header .site-title h1 {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
