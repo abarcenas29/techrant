@@ -2,24 +2,6 @@
 <?php print css('post.css'); ?>
 <!-- Main content -->
 <article id="main-content" class="main-wrapper wrapper">
-	
-<!-- Start the Single Post Run -->
-<?php 
-	the_post(); 
-	$cat = get_the_category();
-?>
-
-<section class="category">
-	<h2>
-	<a class="oswald base" href="/category/<?php print $cat[0]->slug;?>">
-	<?php print $cat[0]->name; ?>
-	</a>/ 
-	<a class="oswald end" href="/category/<?php print $cat[count($cat)-1]->slug;?>">
-	<?php print $cat[count($cat)-1]->name; ?>
-	</a>
-	</h2>
-</section>
-
 <!-- post-loop -->
 <section class="post-loop">
 <article class="display-table wrapper">
